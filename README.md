@@ -44,4 +44,4 @@ I was contracted by the magazine Eat, Safe, Love to evaluate some of the ratings
             - Medway - 672
             - Bexley - 607
             - Southend-On-Sea - 586
-            - Tendring
+            - Tendring - 542
