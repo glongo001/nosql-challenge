@@ -10,11 +10,11 @@ I was contracted by the magazine Eat, Safe, Love to evaluate some of the ratings
 - I confirmed that there was a 'establishments' collection in the database and assigned the collection to a variable name.
 
 ## Part 2: Update the Database
-1. I created a dictionary for the restaurant 'Penang Flavours' and inserted it in the 'establishments' colelction.
+1. I created a dictionary for the restaurant 'Penang Flavours' and inserted it in the 'establishments' collection.
 2. I found the Business Type ID for 'Restaurant/Cafe/Canteen'.
 3. I updated 'Penang Flavours' with its corresponding Business Type ID.
 4. I found the establishments in Dover and removed them from the collection.
-    - The initial number of establishments in Dover was 994, after deleting the documents it was 0.
+    - The initial number of establishments in Dover was 994, after deleting the documents in Dover were 0.
 5. I changed the latitude and longitude values in the collection that were stored as strings to decimal numbers.
 
 ## Part 3: Exploratory Analysis
@@ -34,7 +34,7 @@ I was contracted by the magazine Eat, Safe, Love to evaluate some of the ratings
             - Howe and Co Fish and Chips - Van 17
 4. How many establishments in each Local Authority Area have a hygiene score of 0?
     - I created a match query looking for establishments with a hygiene score of 0. I created a group query grouping establishments by Local Authority Area and added all documents in each group to obtain the total number of establishments with a hygiene score of 0 in each local authority area. I sorted the values from highest to lowest.
-        - There are a total of 55 local authority areas. These are the 10 local authority areas with the greatest number of establishments with a hygiene score of 0 (the number of establishments with a hygiene score of 0 is displayed next to the are name):
+        - There are a total of 55 local authority areas. These are the 10 local authority areas with the greatest number of establishments with a hygiene score of 0 (the number of establishments with a hygiene score of 0 is displayed next to the area name):
             - Thanet - 1130
             - Greenwich - 882
             - Maidstone - 713
