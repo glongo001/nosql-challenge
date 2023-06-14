@@ -1,4 +1,4 @@
-# Unit 12 Homework: Eat Safe, Love
+# NOSQL Challenge: Eat Safe, Love
 I was contracted by the magazine Eat, Safe, Love to evaluate some of the ratings of restaurants across the United Kingdom that were published by the UK Food Standards Agency.
 
 ## Part 1: Database and Jupyter Notebook Set Up
